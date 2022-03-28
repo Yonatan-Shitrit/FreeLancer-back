@@ -1,0 +1,105 @@
+const dbService = require('../../services/db.service')
+const logger = require('../../services/logger.service')
+const ObjectId = require('mongodb').ObjectId
+
+async function query(filterBy = {}) {
+    const criteria = _buildCriteria(filterBy)
+    try {
+        const collection = await dbService.getCollection('gig')
+        var gigs = await collection.find(criteria).toArray()
+        _sort(gigs, filterBy.sortBy)
+        return gigs
+    } catch (err) {
+        logger.error('cannot find gigs', err)
+        throw err
+    }
+}
+
+async function getById(gigId) {
+    try {
+        const collection = await dbService.getCollection('gig')
+        const gig = collection.findOne({ '_id': ObjectId(gigId) })
+        return gig
+    } catch (err) {
+        logger.error(`while finding gig ${gigId}`, err)
+        throw err
+    }
+}
+
+async function remove(gigId) {
+    try {
+        const collection = await dbService.getCollection('gig')
+        await collection.deleteOne({ '_id': ObjectId(gigId) })
+        return gigId
+    } catch (err) {
+        logger.error(`cannot remove gig ${gigId}`, err)
+        throw err
+    }
+}
+
+async function add(gig) {
+    try {
+        const collection = await dbService.getCollection('gig')
+        const {ops} = await collection.insertOne(gig)
+        return ops[0]
+    } catch (err) {
+        logger.error('cannot insert gig', err)
+        throw err
+    }
+}
+async function update(gig) {
+    try {
+        var id = ObjectId(gig._id)
+        delete gig._id
+        const collection = await dbService.getCollection('gig')
+        await collection.updateOne({ "_id": id }, { $set: { ...gig } })
+        gig._id = id
+        return gig
+    } catch (err) {
+        logger.error(`cannot update gig ${gigId}`, err)
+        throw err
+    }
+}
+
+function _buildCriteria(filterBy) {
+    const criteria = {}
+    if (filterBy.name) {
+        const txtCriteria = { $regex: filterBy.name , $options: 'i' }
+        criteria.$or = [
+            {
+                name: txtCriteria
+            }
+        ]
+    }
+    if(filterBy.stock) {
+        criteria.inStock = { $eq: JSON.parse(filterBy.stock) }
+    }
+    if(filterBy.labels) {
+        criteria.labels = { $in: filterBy.labels }
+    }
+        return criteria
+}
+
+function _sort(gigs, sortBy){
+    if(!sortBy) return
+
+    switch(sortBy){
+        case 'createdAt':
+            gigs.sort((t1, t2) => t1.createdAt - t2.createdAt)
+            break
+        case 'name':
+            gigs.sort((t1, t2) => t1.name.localeCompare(t2.name))
+            break
+        case 'price':
+            gigs.sort((t1, t2) => t1.price - t2.price)
+            break
+    }
+}
+
+module.exports = {
+    remove,
+    query,
+    getById,
+    add,
+    update,
+}
