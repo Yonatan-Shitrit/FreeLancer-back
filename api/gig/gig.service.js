@@ -63,11 +63,11 @@ async function update(gig) {
 
 function _buildCriteria(filterBy) {
     const criteria = {}
-    if (filterBy.name) {
-        const txtCriteria = { $regex: filterBy.name , $options: 'i' }
+    if (filterBy.title) {
+        const txtCriteria = { $regex: filterBy.title , $options: 'i' }
         criteria.$or = [
             {
-                name: txtCriteria
+                title: txtCriteria
             }
         ]
     }
@@ -87,8 +87,8 @@ function _sort(gigs, sortBy){
         case 'createdAt':
             gigs.sort((t1, t2) => t1.createdAt - t2.createdAt)
             break
-        case 'name':
-            gigs.sort((t1, t2) => t1.name.localeCompare(t2.name))
+        case 'title':
+            gigs.sort((t1, t2) => t1.title.localeCompare(t2.title))
             break
         case 'price':
             gigs.sort((t1, t2) => t1.price - t2.price)
