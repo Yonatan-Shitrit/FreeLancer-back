@@ -1,7 +1,7 @@
 
 const dbService = require('../../services/db.service')
 const logger = require('../../services/logger.service')
-const {ObjectId} = require('mongodb')
+const { ObjectId } = require('mongodb')
 
 module.exports = {
     query,
@@ -70,6 +70,11 @@ async function update(user) {
             _id: ObjectId(user._id),
             username: user.username,
             fullname: user.fullname,
+            isAdmin: user.isAdmin,
+            imgUrl: user.imgUrl,
+            gigs: user.gigs,
+            orders: user.orders,
+            sales: user.sales,
         }
         const collection = await dbService.getCollection('user')
         await collection.updateOne({ '_id': userToSave._id }, { $set: userToSave })
@@ -87,10 +92,15 @@ async function add(user) {
             username: user.username,
             password: user.password,
             fullname: user.fullname,
-            isAdmin: user.isAdmin
+            isAdmin: user.isAdmin,
+            imgUrl: user.imgUrl,
+            gigs: user.gigs,
+            orders: user.orders,
+            sales: user.sales,
         }
         const collection = await dbService.getCollection('user')
         await collection.insertOne(userToAdd)
+        delete userToAdd.password
         return userToAdd
     } catch (err) {
         logger.error('cannot insert user', err)
