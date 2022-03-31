@@ -30,7 +30,7 @@ async function addOrder(req, res) {
       const addedOrder = await orderService.add(order)
       res.json(addedOrder)
     } catch (err) {
-      logger.error('Failed to add order', err)
+      logger.error('Failed - to add order', err)
       res.status(500).send({ err: 'Failed to add order' })
     }
   }
