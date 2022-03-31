@@ -71,6 +71,9 @@ function _buildCriteria(filterBy) {
             }
         ]
     }
+    if(filterBy.price) {
+        criteria.price = { $or: JSON.parse(filterBy.price) }
+    }
     if(filterBy.stock) {
         criteria.inStock = { $eq: JSON.parse(filterBy.stock) }
     }
