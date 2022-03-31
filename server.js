@@ -42,7 +42,7 @@ app.all('*', setupAsyncLocalStorage)
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/order', orderRoutes)
-app.use('/api/gig', gigRoutes);
+app.use('/api/gig', gigRoutes)
 app.use('/api/review', reviewRoutes)
 connectSockets(http, session)
 
