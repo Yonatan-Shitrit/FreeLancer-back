@@ -748,9 +748,33 @@
 28.3.2022, 14:56:42 - ERROR - Failed to update gig | {}
 28.3.2022, 14:56:42 - ERROR - Failed to update gig | {}
 28.3.2022, 15:17:17 - INFO - Server is running on port: 3030
+28/03/2022, 19:43:37 - INFO - Server is running on port: 3030
+28/03/2022, 19:45:48 - ERROR - cannot find gigs | {}
+28/03/2022, 19:45:48 - ERROR - Failed to get gigs | {}
+28/03/2022, 19:45:48 - ERROR - cannot find gigs | {}
+28/03/2022, 19:45:48 - ERROR - Failed to get gigs | {}
+28/03/2022, 19:46:08 - ERROR - cannot find gigs | {}
+28/03/2022, 19:46:08 - ERROR - Failed to get gigs | {}
+28/03/2022, 19:46:34 - ERROR - cannot find gigs | {}
+28/03/2022, 19:46:34 - ERROR - Failed to get gigs | {}
+28/03/2022, 19:46:35 - ERROR - cannot find gigs | {}
+28/03/2022, 19:46:35 - ERROR - Failed to get gigs | {}
+28/03/2022, 19:46:53 - ERROR - cannot find gigs | {}
+28/03/2022, 19:46:53 - ERROR - Failed to get gigs | {}
+28/03/2022, 19:49:42 - ERROR - cannot find gigs | {}
+28/03/2022, 19:49:42 - ERROR - Failed to get gigs | {}
+28/03/2022, 19:49:42 - ERROR - cannot find gigs | {}
+28/03/2022, 19:49:42 - ERROR - Failed to get gigs | {}
+28/03/2022, 19:50:02 - ERROR - cannot find gigs | {}
+28/03/2022, 19:50:02 - ERROR - Failed to get gigs | {}
+29/03/2022, 11:38:30 - INFO - Server is running on port: 3030
+30/03/2022, 9:26:29 - INFO - Server is running on port: 3030
+30/03/2022, 11:10:26 - INFO - Server is running on port: 3030
 29.3.2022, 12:20:00 - INFO - Server is running on port: 3030
 30.3.2022, 10:00:23 - INFO - Server is running on port: 3030
 30.3.2022, 10:16:26 - INFO - Server is running on port: 3030
 30.3.2022, 10:17:17 - INFO - Server is running on port: 3030
 30.3.2022, 10:21:17 - INFO - Server is running on port: 3030
 30.3.2022, 10:21:18 - INFO - Server is running on port: 3030
+30/03/2022, 11:49:32 - INFO - Server is running on port: 3030
+30/03/2022, 11:53:33 - INFO - Server is running on port: 3030
