@@ -63,13 +63,16 @@ async function update(gig) {
 
 function _buildCriteria(filterBy) {
     const criteria = {}
-    if (filterBy.title) {
-        const txtCriteria = { $regex: filterBy.title , $options: 'i' }
+    if (filterBy.name) {
+        const txtCriteria = { $regex: filterBy.name , $options: 'i' }
         criteria.$or = [
             {
-                title: txtCriteria
+                name: txtCriteria
             }
         ]
+    }
+    if(filterBy.price) {
+        criteria.price = { $or: JSON.parse(filterBy.price) }
     }
     if(filterBy.stock) {
         criteria.inStock = { $eq: JSON.parse(filterBy.stock) }
@@ -87,8 +90,8 @@ function _sort(gigs, sortBy){
         case 'createdAt':
             gigs.sort((t1, t2) => t1.createdAt - t2.createdAt)
             break
-        case 'title':
-            gigs.sort((t1, t2) => t1.title.localeCompare(t2.title))
+        case 'name':
+            gigs.sort((t1, t2) => t1.name.localeCompare(t2.name))
             break
         case 'price':
             gigs.sort((t1, t2) => t1.price - t2.price)
