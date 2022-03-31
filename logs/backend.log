@@ -884,6 +884,20 @@
 31.3.2022, 12:28:57 - INFO - Server is running on port: 3030
 31.3.2022, 12:29:04 - INFO - Server is running on port: 3030
 31.3.2022, 12:29:32 - INFO - Server is running on port: 3030
+<<<<<<< HEAD
 31.3.2022, 12:50:56 - INFO - Server is running on port: 3030
 31.3.2022, 12:51:33 - DEBUG - auth.service - login with username: popy
 31.3.2022, 14:22:24 - DEBUG - auth.service - login with username: popy
+=======
+31.3.2022, 12:49:59 - ERROR - cannot find gigs | {}
+31.3.2022, 12:49:59 - ERROR - Failed to get gigs | {}
+31.3.2022, 13:35:53 - INFO - Server is running on port: 3030
+31.3.2022, 13:35:58 - INFO - Server is running on port: 3030
+31.3.2022, 13:36:07 - INFO - Server is running on port: 3030
+31.3.2022, 13:36:15 - INFO - Server is running on port: 3030
+31.3.2022, 13:36:21 - INFO - Server is running on port: 3030
+31.3.2022, 13:40:55 - INFO - Server is running on port: 3030
+31.3.2022, 13:43:15 - ERROR - Failed to update order | {}
+31.3.2022, 14:26:28 - INFO - Server is running on port: 3030
+31.3.2022, 14:28:45 - INFO - Server is running on port: 3030
+>>>>>>> 2bb3f9b4a3449aed3fd324007666366aa180c5d5
