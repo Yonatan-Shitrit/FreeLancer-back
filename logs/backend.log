@@ -901,3 +901,5 @@
 31.3.2022, 14:26:28 - INFO - Server is running on port: 3030
 31.3.2022, 14:28:45 - INFO - Server is running on port: 3030
 >>>>>>> 2bb3f9b4a3449aed3fd324007666366aa180c5d5
+31.3.2022, 14:30:30 - INFO - Server is running on port: 3030
+31.3.2022, 14:31:11 - DEBUG - auth.service - login with username: popy
