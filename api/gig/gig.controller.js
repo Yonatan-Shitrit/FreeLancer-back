@@ -4,6 +4,7 @@ const logger = require('../../services/logger.service')
 async function getGigs(req, res) {
     try {
       var queryParams = req.query;
+      console.log('queryParams',queryParams);
       const gigs = await gigService.query(queryParams)
       res.json(gigs);
     } catch (err) {
