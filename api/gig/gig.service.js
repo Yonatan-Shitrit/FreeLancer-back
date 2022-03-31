@@ -4,6 +4,8 @@ const ObjectId = require('mongodb').ObjectId
 
 async function query(filterBy = {}) {
     const criteria = _buildCriteria(filterBy)
+    console.log('fi',filterBy);
+    console.log('cri',criteria);
     try {
         const collection = await dbService.getCollection('gig')
         var gigs = await collection.find(criteria).toArray()
@@ -63,21 +65,24 @@ async function update(gig) {
 
 function _buildCriteria(filterBy) {
     const criteria = {}
-    if (filterBy.name) {
-        const txtCriteria = { $regex: filterBy.name , $options: 'i' }
-        criteria.$or = [
-            {
-                name: txtCriteria
-            }
-        ]
+    if (filterBy.title) {
+        criteria.title = { $regex: filterBy.title , $options: 'i' }
+        // criteria.$or = [
+        //     {
+        //         name: txtCriteria
+        //     }
+        // ]
     }
-    if(filterBy.price) {
-        criteria.price = { $or: JSON.parse(filterBy.price) }
+    if(+filterBy.price) {
+        criteria.price = { $lte : +filterBy.price }
     }
-    if(filterBy.stock) {
-        criteria.inStock = { $eq: JSON.parse(filterBy.stock) }
+    if(filterBy.category){
+        criteria['category.name'] = { $regex: filterBy.category , $options: 'i' }
     }
-    if(filterBy.labels) {
+    // // if(filterBy.stock) {
+        // //     criteria.inStock = { $eq: JSON.parse(filterBy.stock) }
+        // // }
+        if(filterBy.labels && filterBy.labels.length) {
         criteria.labels = { $in: filterBy.labels }
     }
         return criteria

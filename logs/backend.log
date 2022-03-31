@@ -820,3 +820,67 @@
 30/03/2022, 11:49:32 - INFO - Server is running on port: 3030
 30/03/2022, 11:53:33 - INFO - Server is running on port: 3030
 31.3.2022, 10:32:58 - INFO - Server is running on port: 3030
+31.3.2022, 10:43:26 - INFO - Server is running on port: 3030
+31.3.2022, 10:44:02 - ERROR - cannot find gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 10:44:02 - ERROR - Failed to get gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 10:44:43 - ERROR - cannot find gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 10:44:43 - ERROR - Failed to get gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 10:44:49 - DEBUG - auth.service - signup with username: farismolla888@gmail.com, fullname: fares
+31.3.2022, 10:44:50 - DEBUG - auth.route - new account created: {"username":"farismolla888@gmail.com","fullname":"fares","isAdmin":false,"imgUrl":"https://cdn1.vectorstock.com/i/1000x1000/31/95/user-sign-icon-person-symbol-human-avatar-vector-12693195.jpg","gigs":[],"orders":[],"sales":[],"_id":"62455bf28483d97b48cefebf"}
+31.3.2022, 10:44:50 - DEBUG - auth.service - login with username: farismolla888@gmail.com
+31.3.2022, 11:13:08 - ERROR - cannot find gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:13:08 - ERROR - Failed to get gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:14:07 - ERROR - cannot find gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:14:07 - ERROR - Failed to get gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:15:29 - ERROR - cannot find gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:15:29 - ERROR - Failed to get gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:15:53 - DEBUG - auth.service - login with username: farismolla888@gmail.com
+31.3.2022, 11:17:33 - ERROR - cannot find gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:17:33 - ERROR - Failed to get gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:17:59 - ERROR - cannot find gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:17:59 - ERROR - Failed to get gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:19:13 - ERROR - cannot find gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:19:13 - ERROR - Failed to get gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:19:49 - ERROR - cannot find gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:19:49 - ERROR - Failed to get gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:20:50 - ERROR - cannot find gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:20:50 - ERROR - Failed to get gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:22:55 - ERROR - cannot find gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:22:55 - ERROR - Failed to get gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:23:55 - ERROR - cannot find gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:23:55 - ERROR - Failed to get gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:35:40 - ERROR - cannot find gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:35:40 - ERROR - Failed to get gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:39:16 - ERROR - cannot find gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:39:16 - ERROR - Failed to get gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:43:06 - ERROR - cannot find gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:43:06 - ERROR - Failed to get gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:46:20 - ERROR - cannot find gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:46:20 - ERROR - Failed to get gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:46:36 - ERROR - cannot find gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:46:36 - ERROR - Failed to get gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:47:07 - ERROR - cannot find gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:47:07 - ERROR - Failed to get gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:52:57 - ERROR - cannot find gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:52:57 - ERROR - Failed to get gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:57:51 - ERROR - cannot find gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:57:51 - ERROR - Failed to get gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:58:15 - ERROR - cannot find gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:58:15 - ERROR - Failed to get gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:58:56 - ERROR - cannot find gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:58:56 - ERROR - Failed to get gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 11:59:39 - INFO - Server is running on port: 3030
+31.3.2022, 12:10:56 - INFO - Server is running on port: 3030
+31.3.2022, 12:13:35 - INFO - Server is running on port: 3030
+31.3.2022, 12:19:23 - INFO - Server is running on port: 3030
+31.3.2022, 12:20:22 - INFO - Server is running on port: 3030
+31.3.2022, 12:21:00 - INFO - Server is running on port: 3030
+31.3.2022, 12:21:08 - INFO - Server is running on port: 3030
+31.3.2022, 12:23:46 - INFO - Server is running on port: 3030
+31.3.2022, 12:25:32 - INFO - Server is running on port: 3030
+31.3.2022, 12:26:48 - INFO - Server is running on port: 3030
+31.3.2022, 12:27:46 - ERROR - cannot find gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 12:27:46 - ERROR - Failed to get gigs | {"ok":0,"code":2,"codeName":"BadValue","name":"MongoError"}
+31.3.2022, 12:28:57 - INFO - Server is running on port: 3030
+31.3.2022, 12:29:04 - INFO - Server is running on port: 3030
+31.3.2022, 12:29:32 - INFO - Server is running on port: 3030
