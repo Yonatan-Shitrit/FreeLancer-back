@@ -9,7 +9,9 @@ async function query(filterBy = {}) {
     try {
         const collection = await dbService.getCollection('gig')
         var gigs = await collection.find(criteria).toArray()
+        console.log('bout to sort');
         _sort(gigs, filterBy.sortBy)
+        console.log('sorted');
         return gigs
     } catch (err) {
         logger.error('cannot find gigs', err)
@@ -88,7 +90,10 @@ function _sort(gigs, sortBy){
             gigs.sort((t1, t2) => t1.createdAt - t2.createdAt)
             break
         case 'name':
-            gigs.sort((t1, t2) => t1.name.localeCompare(t2.name))
+            console.log('i sort by name');
+            gigs.sort((t1, t2) => t1.title.localeCompare(t2.title))
+            console.log('i sorted by name');
+
             break
         case 'price':
             gigs.sort((t1, t2) => t1.price - t2.price)
