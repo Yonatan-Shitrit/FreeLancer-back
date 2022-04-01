@@ -903,3 +903,65 @@
 >>>>>>> 2bb3f9b4a3449aed3fd324007666366aa180c5d5
 31.3.2022, 14:30:30 - INFO - Server is running on port: 3030
 31.3.2022, 14:31:11 - DEBUG - auth.service - login with username: popy
+31.3.2022, 19:21:13 - DEBUG - auth.service - login with username: bubu
+31.3.2022, 19:23:17 - DEBUG - auth.service - login with username: popy
+31.3.2022, 20:06:01 - DEBUG - auth.service - login with username: bubu
+31.3.2022, 20:25:09 - DEBUG - auth.service - login with username: popy
+31.3.2022, 20:32:22 - DEBUG - auth.service - login with username: bubu
+31.3.2022, 21:19:50 - DEBUG - auth.service - login with username: popy
+31.3.2022, 21:20:09 - DEBUG - auth.service - login with username: bubu
+31.3.2022, 21:33:30 - DEBUG - auth.service - login with username: popy
+1.4.2022, 14:50:56 - INFO - Server is running on port: 3030
+1.4.2022, 15:18:31 - ERROR - while finding gig [object Object] | {}
+1.4.2022, 15:18:31 - ERROR - Failed to get gig | {}
+1.4.2022, 15:19:43 - DEBUG - auth.service - login with username: popy
+1.4.2022, 15:19:46 - ERROR - while finding gig [object Object] | {}
+1.4.2022, 15:19:46 - ERROR - Failed to get gig | {}
+1.4.2022, 15:19:52 - ERROR - while finding gig [object Object] | {}
+1.4.2022, 15:19:52 - ERROR - Failed to get gig | {}
+1.4.2022, 15:20:08 - ERROR - while finding gig [object Object] | {}
+1.4.2022, 15:20:08 - ERROR - Failed to get gig | {}
+1.4.2022, 15:20:10 - ERROR - while finding gig [object Object] | {}
+1.4.2022, 15:20:10 - ERROR - Failed to get gig | {}
+1.4.2022, 16:17:37 - DEBUG - auth.service - login with username: boby
+1.4.2022, 16:18:38 - DEBUG - auth.service - login with username: popy
+1.4.2022, 18:50:38 - ERROR - cannot find gigs | {}
+1.4.2022, 18:50:38 - ERROR - Failed to get gigs | {}
+1.4.2022, 18:50:48 - ERROR - cannot find gigs | {}
+1.4.2022, 18:50:48 - ERROR - Failed to get gigs | {}
+1.4.2022, 18:53:18 - ERROR - cannot find gigs | {}
+1.4.2022, 18:53:18 - ERROR - Failed to get gigs | {}
+1.4.2022, 18:55:59 - INFO - Server is running on port: 3030
+1.4.2022, 18:56:08 - ERROR - cannot find orders | {}
+1.4.2022, 18:56:08 - ERROR - Failed to get orders | {}
+1.4.2022, 18:56:08 - ERROR - cannot find gigs | {}
+1.4.2022, 18:56:08 - ERROR - Failed to get gigs | {}
+1.4.2022, 18:58:22 - ERROR - cannot find gigs | {}
+1.4.2022, 18:58:22 - ERROR - Failed to get gigs | {}
+1.4.2022, 18:58:22 - ERROR - cannot find orders | {}
+1.4.2022, 18:58:22 - ERROR - Failed to get orders | {}
+1.4.2022, 20:27:59 - INFO - Server is running on port: 3030
+1.4.2022, 20:28:15 - ERROR - cannot find orders | {}
+1.4.2022, 20:28:15 - ERROR - Failed to get orders | {}
+1.4.2022, 20:28:15 - ERROR - cannot find gigs | {}
+1.4.2022, 20:28:15 - ERROR - Failed to get gigs | {}
+1.4.2022, 20:30:24 - INFO - Server is running on port: 3030
+1.4.2022, 20:31:10 - ERROR - cannot find orders | {}
+1.4.2022, 20:31:10 - ERROR - Failed to get orders | {}
+1.4.2022, 20:31:10 - ERROR - cannot find gigs | {}
+1.4.2022, 20:31:10 - ERROR - Failed to get gigs | {}
+1.4.2022, 20:35:59 - INFO - Server is running on port: 3030
+1.4.2022, 20:36:25 - ERROR - cannot find orders | {}
+1.4.2022, 20:36:25 - ERROR - Failed to get orders | {}
+1.4.2022, 20:36:25 - ERROR - cannot find gigs | {}
+1.4.2022, 20:36:25 - ERROR - Failed to get gigs | {}
+1.4.2022, 20:40:55 - ERROR - cannot find gigs | {}
+1.4.2022, 20:40:55 - ERROR - Failed to get gigs | {}
+1.4.2022, 20:42:30 - ERROR - cannot find gigs | {}
+1.4.2022, 20:42:30 - ERROR - Failed to get gigs | {}
+1.4.2022, 20:43:36 - INFO - Server is running on port: 3030
+1.4.2022, 20:44:03 - ERROR - cannot find gigs | {}
+1.4.2022, 20:44:03 - ERROR - Failed to get gigs | {}
+1.4.2022, 20:46:58 - INFO - Server is running on port: 3030
+1.4.2022, 20:51:14 - INFO - Server is running on port: 3030
+1.4.2022, 20:52:04 - INFO - Server is running on port: 3030
