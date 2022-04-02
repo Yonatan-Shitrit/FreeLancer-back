@@ -56,9 +56,9 @@ function connectSockets(http, session) {
             socket.join(watchedUserId)
             socket.watchedUserId = watchedUserId
         })
-        socket.on('msg watched users', msg => {
-            console.log('msg watched users');
-            emitToWatchedUsers(msg)
+        socket.on('order change', order => {
+            console.log('order change broadcast');
+            broadcast({ type: 'order update', data: order, userId: socket.userId })
         })
     })
 }
@@ -91,7 +91,7 @@ async function emitToUser({ type, data, userId }) {
 
 // Send to all sockets BUT not the current socket 
 async function broadcast({ type, data, room = null, userId }) {
-    console.log('BROADCASTING', JSON.stringify(arguments));
+    console.log('BROADCASTING', arguments);
     const excludedSocket = await _getUserSocket(userId)
     if (!excludedSocket) {
         // logger.debug('Shouldnt happen, socket not found')
