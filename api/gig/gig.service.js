@@ -68,22 +68,14 @@ async function update(gig) {
 function _buildCriteria(filterBy) {
     const criteria = {}
     if (filterBy.title) {
-        criteria.title = { $regex: filterBy.title , $options: 'i' }
-        // criteria.$or = [
-        //     {
-        //         name: txtCriteria
-        //     }
-        // ]
+        criteria.title = { $regex: filterBy.title , $options: 'i' }        
     }
     if(+filterBy.price) {
         criteria.price = { $lte : +filterBy.price }
     }
     if(filterBy.category){
         criteria['category.name'] = { $regex: filterBy.category , $options: 'i' }
-    }
-    // // if(filterBy.stock) {
-        // //     criteria.inStock = { $eq: JSON.parse(filterBy.stock) }
-        // // }
+    }    
         if(filterBy.labels && filterBy.labels.length) {
         criteria.labels = { $in: filterBy.labels }
     }
