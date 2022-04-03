@@ -1246,3 +1246,9 @@
 3.4.2022, 14:46:25 - INFO - Server is running on port: 3030
 3.4.2022, 14:46:30 - INFO - Server is running on port: 3030
 3.4.2022, 14:50:23 - INFO - Server is running on port: 3030
+3.4.2022, 15:24:10 - INFO - Server is running on port: 3030
+3.4.2022, 15:36:28 - DEBUG - auth.service - signup with username: matan, fullname: matan
+3.4.2022, 15:36:28 - DEBUG - auth.route - new account created: {"username":"matan","fullname":"matan","isAdmin":false,"imgUrl":"https://cdn1.vectorstock.com/i/1000x1000/31/95/user-sign-icon-person-symbol-human-avatar-vector-12693195.jpg","gigs":[],"orders":[],"sales":[],"_id":"624994cc997b725930d01ca7"}
+3.4.2022, 15:36:28 - DEBUG - auth.service - login with username: matan
+3.4.2022, 15:52:22 - INFO - Server is running on port: 3030
+3.4.2022, 15:52:23 - INFO - Server is running on port: 3030
