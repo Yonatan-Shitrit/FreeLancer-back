@@ -1252,3 +1252,121 @@
 3.4.2022, 15:36:28 - DEBUG - auth.service - login with username: matan
 3.4.2022, 15:52:22 - INFO - Server is running on port: 3030
 3.4.2022, 15:52:23 - INFO - Server is running on port: 3030
+3.4.2022, 16:08:46 - INFO - Server is running on port: 3030
+3.4.2022, 17:17:39 - DEBUG - auth.service - login with username: matan
+3.4.2022, 17:20:00 - DEBUG - auth.service - login with username: matan
+3.4.2022, 17:21:27 - DEBUG - auth.service - signup with username: fares, fullname: Fares Mulla
+3.4.2022, 17:21:27 - DEBUG - auth.route - new account created: {"username":"fares","fullname":"Fares Mulla","isAdmin":false,"imgUrl":"https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80","gigs":[],"orders":[],"sales":[],"_id":"6249ad673fe23e4ee0ad4ef7"}
+3.4.2022, 17:21:27 - DEBUG - auth.service - login with username: fares
+3.4.2022, 17:21:40 - DEBUG - auth.service - login with username: matan
+3.4.2022, 17:22:12 - DEBUG - broadcast to all but user:  | TQe3ng1BKWQLOQHyAAAV
+3.4.2022, 17:24:00 - DEBUG - broadcast to all but user:  | TQe3ng1BKWQLOQHyAAAV
+3.4.2022, 17:25:55 - DEBUG - broadcast to all but user:  | EuNFEMAkx9seOmLkAAAb
+3.4.2022, 17:26:17 - DEBUG - broadcast to all but user:  | EuNFEMAkx9seOmLkAAAb
+3.4.2022, 17:27:54 - DEBUG - broadcast to all but user:  | xrrVXJPiQzNjYT9MAAAZ
+3.4.2022, 17:40:17 - DEBUG - broadcast to all but user:  | VYqwuTAiqDSQoGEvAAAj
+3.4.2022, 19:36:53 - DEBUG - broadcast to all but user:  | fmoYaOXuJvL3ru-jAAAp
+3.4.2022, 19:54:39 - DEBUG - broadcast to all but user:  | PCtOm_Iys_WhlquCAAAn
+3.4.2022, 19:56:17 - DEBUG - broadcast to all but user:  | wkEuxe5KSsHqHXf0AAAt
+3.4.2022, 19:56:28 - DEBUG - broadcast to all but user:  | wkEuxe5KSsHqHXf0AAAt
+3.4.2022, 19:57:16 - DEBUG - broadcast to all but user:  | flTv28lbbL1uJkWNAAAx
+3.4.2022, 20:59:22 - DEBUG - auth.service - login with username: matan
+3.4.2022, 20:59:31 - DEBUG - auth.service - login with username: fares
+3.4.2022, 21:05:05 - DEBUG - broadcast to all but user:  | HVw3KJiaHxpLo3UfAAA1
+3.4.2022, 21:14:10 - DEBUG - broadcast to all but user:  | MaolkdJuQNyfkxmUAAAz
+3.4.2022, 21:20:31 - DEBUG - broadcast to all but user:  | aXOwkcLGGKMmIVVkAAA3
+3.4.2022, 21:21:30 - DEBUG - broadcast to all but user:  | aXOwkcLGGKMmIVVkAAA3
+3.4.2022, 21:23:00 - DEBUG - broadcast to all but user:  | aXOwkcLGGKMmIVVkAAA3
+3.4.2022, 21:23:01 - DEBUG - broadcast to all but user:  | aXOwkcLGGKMmIVVkAAA3
+3.4.2022, 21:24:57 - DEBUG - broadcast to all but user:  | HVw3KJiaHxpLo3UfAAA1
+3.4.2022, 21:25:53 - DEBUG - broadcast to all but user:  | aXOwkcLGGKMmIVVkAAA3
+3.4.2022, 22:58:15 - DEBUG - broadcast to all but user:  | RMteU00S9vj2LY6uAAA5
+3.4.2022, 22:58:17 - DEBUG - broadcast to all but user:  | RMteU00S9vj2LY6uAAA5
+4.4.2022, 0:38:14 - DEBUG - broadcast to all but user:  | CiXYQ1gPRsXBPcMdAAA_
+4.4.2022, 0:38:15 - DEBUG - broadcast to all but user:  | CiXYQ1gPRsXBPcMdAAA_
+4.4.2022, 0:46:45 - DEBUG - broadcast to all but user:  | CiXYQ1gPRsXBPcMdAAA_
+4.4.2022, 0:46:49 - DEBUG - broadcast to all but user:  | CiXYQ1gPRsXBPcMdAAA_
+4.4.2022, 0:49:05 - DEBUG - broadcast to all but user:  | CiXYQ1gPRsXBPcMdAAA_
+4.4.2022, 0:49:06 - DEBUG - broadcast to all but user:  | CiXYQ1gPRsXBPcMdAAA_
+4.4.2022, 0:49:07 - DEBUG - broadcast to all but user:  | CiXYQ1gPRsXBPcMdAAA_
+4.4.2022, 0:49:08 - DEBUG - broadcast to all but user:  | CiXYQ1gPRsXBPcMdAAA_
+4.4.2022, 0:49:08 - DEBUG - broadcast to all but user:  | CiXYQ1gPRsXBPcMdAAA_
+4.4.2022, 0:49:09 - DEBUG - broadcast to all but user:  | CiXYQ1gPRsXBPcMdAAA_
+4.4.2022, 0:49:10 - DEBUG - broadcast to all but user:  | CiXYQ1gPRsXBPcMdAAA_
+4.4.2022, 9:27:00 - INFO - Server is running on port: 3030
+4.4.2022, 9:30:47 - DEBUG - auth.service - login with username: matan
+4.4.2022, 9:31:41 - DEBUG - broadcast to all but user:  | doxmZEw0-7S53GpKAAAD
+4.4.2022, 9:31:42 - DEBUG - broadcast to all but user:  | doxmZEw0-7S53GpKAAAD
+4.4.2022, 10:27:39 - DEBUG - auth.service - login with username: fares
+4.4.2022, 10:28:26 - DEBUG - broadcast to all but user:  | oeI7Wk0bz24DZ_gTAAAP
+4.4.2022, 10:28:50 - DEBUG - broadcast to all but user:  | oeI7Wk0bz24DZ_gTAAAP
+4.4.2022, 10:35:53 - DEBUG - broadcast to all but user:  | l6hkV7BOrPGCJnv2AAAN
+4.4.2022, 10:42:45 - DEBUG - broadcast to all but user:  | l6hkV7BOrPGCJnv2AAAN
+4.4.2022, 10:45:43 - DEBUG - broadcast to all but user:  | l6hkV7BOrPGCJnv2AAAN
+4.4.2022, 10:46:53 - DEBUG - broadcast to all but user:  | l6hkV7BOrPGCJnv2AAAN
+4.4.2022, 10:46:54 - DEBUG - broadcast to all but user:  | l6hkV7BOrPGCJnv2AAAN
+4.4.2022, 10:50:50 - DEBUG - broadcast to all but user:  | l6hkV7BOrPGCJnv2AAAN
+4.4.2022, 10:59:08 - DEBUG - broadcast to all but user:  | l6hkV7BOrPGCJnv2AAAN
+4.4.2022, 10:59:31 - DEBUG - broadcast to all but user:  | l6hkV7BOrPGCJnv2AAAN
+4.4.2022, 10:59:51 - DEBUG - broadcast to all but user:  | l6hkV7BOrPGCJnv2AAAN
+4.4.2022, 11:24:36 - DEBUG - broadcast to all but user:  | dQ6zkoTy0HiAc5mwAAAb
+4.4.2022, 11:32:33 - DEBUG - broadcast to all but user:  | dQ6zkoTy0HiAc5mwAAAb
+4.4.2022, 11:32:44 - DEBUG - broadcast to all but user:  | w8QC5XGYYevCMCppAAAd
+4.4.2022, 11:32:47 - DEBUG - broadcast to all but user:  | dQ6zkoTy0HiAc5mwAAAb
+4.4.2022, 11:33:27 - DEBUG - broadcast to all but user:  | mKEwRf2QZ1HoiMgZAAAh
+4.4.2022, 11:33:30 - DEBUG - broadcast to all but user:  | mKEwRf2QZ1HoiMgZAAAh
+4.4.2022, 11:50:17 - DEBUG - broadcast to all but user:  | UBCFbRUZM2Jri6iyAAAg
+4.4.2022, 11:50:35 - DEBUG - broadcast to all but user:  | UBCFbRUZM2Jri6iyAAAg
+4.4.2022, 11:51:32 - DEBUG - broadcast to all but user:  | UBCFbRUZM2Jri6iyAAAg
+4.4.2022, 11:54:56 - DEBUG - broadcast to all but user:  | f6XT_Excx1cZYH3KAAAl
+4.4.2022, 11:55:09 - DEBUG - broadcast to all but user:  | 6cNo6v3MaSc6mjnVAAAn
+4.4.2022, 12:16:34 - DEBUG - broadcast to all but user:  | iv84b613qfnaE3LeAAAr
+4.4.2022, 12:16:52 - DEBUG - broadcast to all but user:  | O2_n4aVjF63g_PfRAAAp
+4.4.2022, 12:23:06 - DEBUG - broadcast to all but user:  | iv84b613qfnaE3LeAAAr
+4.4.2022, 12:23:16 - DEBUG - broadcast to all but user:  | O2_n4aVjF63g_PfRAAAp
+4.4.2022, 12:30:10 - DEBUG - broadcast to all but user:  | iv84b613qfnaE3LeAAAr
+4.4.2022, 12:30:29 - DEBUG - broadcast to all but user:  | O2_n4aVjF63g_PfRAAAp
+4.4.2022, 12:33:20 - DEBUG - broadcast to all but user:  | iv84b613qfnaE3LeAAAr
+4.4.2022, 12:33:32 - DEBUG - broadcast to all but user:  | O2_n4aVjF63g_PfRAAAp
+4.4.2022, 12:46:35 - DEBUG - broadcast to all but user:  | iv84b613qfnaE3LeAAAr
+4.4.2022, 12:46:48 - DEBUG - broadcast to all but user:  | O2_n4aVjF63g_PfRAAAp
+4.4.2022, 12:50:16 - DEBUG - broadcast to all but user:  | iv84b613qfnaE3LeAAAr
+4.4.2022, 12:50:31 - DEBUG - broadcast to all but user:  | O2_n4aVjF63g_PfRAAAp
+4.4.2022, 13:06:09 - DEBUG - broadcast to all but user:  | qKr1cb_TVoFu6lfnAAAx
+4.4.2022, 13:06:42 - DEBUG - broadcast to all but user:  | iWfggO3Plzbr6_DrAAAu
+4.4.2022, 13:06:57 - DEBUG - broadcast to all but user:  | iWfggO3Plzbr6_DrAAAu
+4.4.2022, 13:07:17 - DEBUG - broadcast to all but user:  | qKr1cb_TVoFu6lfnAAAx
+4.4.2022, 13:07:29 - DEBUG - broadcast to all but user:  | iWfggO3Plzbr6_DrAAAu
+4.4.2022, 13:09:06 - DEBUG - broadcast to all but user:  | iWfggO3Plzbr6_DrAAAu
+4.4.2022, 13:09:15 - DEBUG - broadcast to all but user:  | iWfggO3Plzbr6_DrAAAu
+4.4.2022, 13:09:37 - DEBUG - broadcast to all but user:  | iWfggO3Plzbr6_DrAAAu
+4.4.2022, 13:10:08 - DEBUG - broadcast to all but user:  | iWfggO3Plzbr6_DrAAAu
+4.4.2022, 13:10:20 - DEBUG - broadcast to all but user:  | iWfggO3Plzbr6_DrAAAu
+4.4.2022, 13:11:56 - DEBUG - broadcast to all but user:  | qKr1cb_TVoFu6lfnAAAx
+4.4.2022, 13:12:09 - DEBUG - broadcast to all but user:  | iWfggO3Plzbr6_DrAAAu
+4.4.2022, 13:17:45 - DEBUG - broadcast to all but user:  | GxmfPJAOe89FNno9AAAz
+4.4.2022, 13:19:37 - DEBUG - broadcast to all but user:  | qKr1cb_TVoFu6lfnAAAx
+4.4.2022, 13:19:46 - DEBUG - broadcast to all but user:  | GxmfPJAOe89FNno9AAAz
+4.4.2022, 13:23:45 - DEBUG - broadcast to all but user:  | qKr1cb_TVoFu6lfnAAAx
+4.4.2022, 13:23:53 - DEBUG - broadcast to all but user:  | qKr1cb_TVoFu6lfnAAAx
+4.4.2022, 13:24:02 - DEBUG - broadcast to all but user:  | qKr1cb_TVoFu6lfnAAAx
+4.4.2022, 13:24:10 - DEBUG - broadcast to all but user:  | qKr1cb_TVoFu6lfnAAAx
+4.4.2022, 13:25:22 - DEBUG - auth.service - signup with username: jonathan, fullname: Jonathan Gorbachev
+4.4.2022, 13:25:22 - DEBUG - auth.route - new account created: {"username":"jonathan","fullname":"Jonathan Gorbachev","isAdmin":false,"imgUrl":"https://cdn1.vectorstock.com/i/1000x1000/31/95/user-sign-icon-person-symbol-human-avatar-vector-12693195.jpg","gigs":[],"orders":[],"sales":[],"_id":"624ac7923ed8b0242c33bfef"}
+4.4.2022, 13:25:22 - DEBUG - auth.service - login with username: jonathan
+4.4.2022, 13:25:37 - DEBUG - broadcast to all but user:  | IGQrV25hSIala9kwAAA3
+4.4.2022, 13:25:49 - DEBUG - broadcast to all but user:  | IGQrV25hSIala9kwAAA3
+4.4.2022, 13:30:09 - DEBUG - broadcast to all but user:  | uFaxgzF6gyHOhJcxAAA_
+4.4.2022, 13:30:10 - DEBUG - broadcast to all but user:  | uFaxgzF6gyHOhJcxAAA_
+4.4.2022, 13:30:16 - DEBUG - broadcast to all but user:  | uFaxgzF6gyHOhJcxAAA_
+4.4.2022, 13:40:47 - DEBUG - broadcast to all but user:  | w1KmyfjaV6NxxmQ-AAA1
+4.4.2022, 13:40:58 - DEBUG - broadcast to all but user:  | uFaxgzF6gyHOhJcxAAA_
+4.4.2022, 13:46:47 - DEBUG - broadcast to all but user:  | w1KmyfjaV6NxxmQ-AAA1
+4.4.2022, 13:46:57 - DEBUG - broadcast to all but user:  | crhME9NEmeDA4kxrAABB
+4.4.2022, 13:49:03 - DEBUG - broadcast to all but user:  | w1KmyfjaV6NxxmQ-AAA1
+4.4.2022, 13:50:07 - DEBUG - broadcast to all but user:  | C2dhG07FYpcLMu5_AABD
+4.4.2022, 13:50:31 - DEBUG - broadcast to all but user:  | w1KmyfjaV6NxxmQ-AAA1
+4.4.2022, 14:18:10 - DEBUG - broadcast to all but user:  | tFk4lYfYgQb8ARNdAABF
+4.4.2022, 14:18:18 - DEBUG - broadcast to all but user:  | -iVMRlOoJoKDfSN7AABH
+4.4.2022, 14:30:35 - DEBUG - broadcast to all but user:  | -iVMRlOoJoKDfSN7AABH
+4.4.2022, 18:32:09 - INFO - Server is running on port: 3030
