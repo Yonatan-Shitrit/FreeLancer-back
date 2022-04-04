@@ -1372,3 +1372,8 @@
 4.4.2022, 18:32:09 - INFO - Server is running on port: 3030
 4.4.2022, 18:48:02 - INFO - Server is running on port: 3030
 4.4.2022, 19:08:05 - INFO - Server is running on port: 3030
+4.4.2022, 19:30:34 - INFO - Server is running on port: 3030
+4.4.2022, 19:30:36 - DEBUG - auth.service - login with username: matan
+4.4.2022, 19:30:36 - DEBUG - auth.service - login with username: matan
+4.4.2022, 19:32:40 - INFO - Server is running on port: 3030
+4.4.2022, 19:32:53 - INFO - Server is running on port: 3030
