@@ -1377,3 +1377,12 @@
 4.4.2022, 19:30:36 - DEBUG - auth.service - login with username: matan
 4.4.2022, 19:32:40 - INFO - Server is running on port: 3030
 4.4.2022, 19:32:53 - INFO - Server is running on port: 3030
+5.4.2022, 10:27:27 - INFO - Server is running on port: 3030
+5.4.2022, 10:38:39 - DEBUG - auth.service - login with username: matan
+5.4.2022, 10:42:24 - DEBUG - auth.service - login with username: fares
+5.4.2022, 10:42:49 - DEBUG - broadcast to all but user:  | IqYNGjujGTU1uFSfAAAJ
+5.4.2022, 10:42:52 - DEBUG - broadcast to all but user:  | IqYNGjujGTU1uFSfAAAJ
+5.4.2022, 11:29:50 - INFO - Server is running on port: 3030
+5.4.2022, 11:31:16 - DEBUG - auth.service - login with username: fares
+5.4.2022, 11:31:49 - DEBUG - broadcast to all but user:  | -C5ptV4cjERwlfitAAAF
+5.4.2022, 11:33:33 - INFO - Server is running on port: 3030
