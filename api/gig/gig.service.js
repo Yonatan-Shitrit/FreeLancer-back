@@ -7,7 +7,7 @@ async function query(filterBy = {}) {
     console.log('fi',filterBy);
     console.log('cri',criteria);
     try {
-        const collection = await dbService.getCollection('gig')
+        const collection = await dbService.getCollection('gigs')
         var gigs = await collection.find(criteria).toArray()
         console.log('bout to sort');
         _sort(gigs, filterBy.sortBy)
@@ -21,7 +21,7 @@ async function query(filterBy = {}) {
 
 async function getById(gigId) {
     try {
-        const collection = await dbService.getCollection('gig')
+        const collection = await dbService.getCollection('gigs')
         const gig = collection.findOne({ '_id': ObjectId(gigId) })
         return gig
     } catch (err) {
@@ -32,7 +32,7 @@ async function getById(gigId) {
 
 async function remove(gigId) {
     try {
-        const collection = await dbService.getCollection('gig')
+        const collection = await dbService.getCollection('gigs')
         await collection.deleteOne({ '_id': ObjectId(gigId) })
         return gigId
     } catch (err) {
@@ -43,7 +43,7 @@ async function remove(gigId) {
 
 async function add(gig) {
     try {
-        const collection = await dbService.getCollection('gig')
+        const collection = await dbService.getCollection('gigs')
         const {ops} = await collection.insertOne(gig)
         return ops[0]
     } catch (err) {
@@ -55,7 +55,7 @@ async function update(gig) {
     try {
         var id = ObjectId(gig._id)
         delete gig._id
-        const collection = await dbService.getCollection('gig')
+        const collection = await dbService.getCollection('gigs')
         await collection.updateOne({ "_id": id }, { $set: { ...gig } })
         gig._id = id
         return gig
