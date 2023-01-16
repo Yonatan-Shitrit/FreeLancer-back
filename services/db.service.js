@@ -6,7 +6,7 @@ module.exports = {
     getCollection
 }
 
-const dbName = 'gig_db'
+const dbName = 'FreeLancer-api'
 
 var dbConn = null
 
