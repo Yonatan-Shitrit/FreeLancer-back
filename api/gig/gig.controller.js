@@ -6,6 +6,7 @@ async function getGigs(req, res) {
       var queryParams = req.query;
       console.log('queryParams',queryParams);
       const gigs = await gigService.query(queryParams)
+      console.log('gigs: ', gigs )
       res.json(gigs);
     } catch (err) {
       logger.error('Failed to get gigs', err)
