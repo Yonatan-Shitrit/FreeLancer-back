@@ -5,11 +5,13 @@ const ObjectId = require('mongodb').ObjectId
 async function query(filterBy = {}) {
     const criteria = _buildCriteria(filterBy)
     console.log('fi',filterBy);
-    console.log('cri',criteria);
+    console.log('cri',criteria)
     try {
         const collection = await dbService.getCollection('gigs')
+        console.log("collection: ", collection)
         var gigs = await collection.find(criteria).toArray()
         console.log('bout to sort');
+        console.log("gigs: ", gigs)
         _sort(gigs, filterBy.sortBy)
         console.log('sorted');
         return gigs

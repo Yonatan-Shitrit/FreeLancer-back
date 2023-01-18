@@ -1394,3 +1394,13 @@
 11/01/2023, 10:23:33 - INFO - Server is running on port: 3030
 11/01/2023, 10:24:23 - INFO - Server is running on port: 3030
 11/01/2023, 12:01:59 - INFO - Server is running on port: 3030
+16/01/2023, 17:26:16 - INFO - Server is running on port: 3030
+17/01/2023, 15:46:49 - INFO - Server is running on port: 3030
+18/01/2023, 15:49:57 - INFO - Server is running on port: 3030
+18/01/2023, 16:04:02 - INFO - Server is running on port: 3030
+18/01/2023, 18:03:23 - INFO - Server is running on port: 3030
+18/01/2023, 18:08:12 - DEBUG - auth.service - login with username: lior
+18/01/2023, 18:08:12 - ERROR - Failed to Login Invalid username or password
+18/01/2023, 18:09:24 - DEBUG - auth.service - signup with username: lior, fullname: lior ravid
+18/01/2023, 18:09:24 - DEBUG - auth.route - new account created: {"username":"lior","fullname":"lior ravid","isAdmin":false,"imgUrl":"https://cdn1.vectorstock.com/i/1000x1000/31/95/user-sign-icon-person-symbol-human-avatar-vector-12693195.jpg","gigs":[],"orders":[],"sales":[],"_id":"63c819b447b6bf314421ebe8"}
+18/01/2023, 18:09:24 - DEBUG - auth.service - login with username: lior
