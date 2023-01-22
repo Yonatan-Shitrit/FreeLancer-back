@@ -7,6 +7,7 @@
     "server:dev": "set NODE_ENV=development&&nodemon server.js",
     "server:prod": "set NODE_ENV=production&&node server.js"
   },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
