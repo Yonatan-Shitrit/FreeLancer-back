@@ -1404,3 +1404,24 @@
 18/01/2023, 18:09:24 - DEBUG - auth.service - signup with username: lior, fullname: lior ravid
 18/01/2023, 18:09:24 - DEBUG - auth.route - new account created: {"username":"lior","fullname":"lior ravid","isAdmin":false,"imgUrl":"https://cdn1.vectorstock.com/i/1000x1000/31/95/user-sign-icon-person-symbol-human-avatar-vector-12693195.jpg","gigs":[],"orders":[],"sales":[],"_id":"63c819b447b6bf314421ebe8"}
 18/01/2023, 18:09:24 - DEBUG - auth.service - login with username: lior
+19/01/2023, 18:05:58 - INFO - Server is running on port: 3030
+19/01/2023, 18:15:20 - DEBUG - auth.service - signup with username: yoni, fullname: yoni boi
+19/01/2023, 18:15:20 - DEBUG - auth.route - new account created: {"username":"yoni","fullname":"yoni boi","isAdmin":false,"imgUrl":"https://cdn1.vectorstock.com/i/1000x1000/31/95/user-sign-icon-person-symbol-human-avatar-vector-12693195.jpg","gigs":[],"orders":[],"sales":[],"_id":"63c96c98ac366e2bd4e20654"}
+19/01/2023, 18:15:20 - DEBUG - auth.service - login with username: yoni
+19/01/2023, 18:16:54 - DEBUG - broadcast to all but user:  | BOD_Yd-KN6McSC9qAAAL
+19/01/2023, 18:31:13 - DEBUG - auth.service - login with username: yoni
+19/01/2023, 18:34:57 - DEBUG - auth.service - login with username: yoni
+19/01/2023, 18:35:32 - DEBUG - auth.service - login with username: yoni
+19/01/2023, 18:36:02 - DEBUG - auth.service - login with username: yoni
+19/01/2023, 18:37:41 - DEBUG - auth.service - login with username: yoni
+19/01/2023, 18:45:16 - DEBUG - auth.service - login with username: yoni
+19/01/2023, 19:13:30 - DEBUG - auth.service - login with username: matan
+19/01/2023, 19:13:31 - ERROR - Failed to Login Invalid username or password
+19/01/2023, 19:15:22 - DEBUG - auth.service - login with username: yoni
+20/01/2023, 12:15:45 - INFO - Server is running on port: 3030
+20/01/2023, 13:06:31 - DEBUG - auth.service - signup with username: lior, fullname: big ravid
+20/01/2023, 13:06:31 - DEBUG - auth.route - new account created: {"username":"lior","fullname":"big ravid","isAdmin":false,"imgUrl":"https://cdn1.vectorstock.com/i/1000x1000/31/95/user-sign-icon-person-symbol-human-avatar-vector-12693195.jpg","gigs":[],"orders":[],"sales":[],"_id":"63ca75b762b1e33cdc030a9a"}
+20/01/2023, 13:06:31 - DEBUG - auth.service - login with username: lior
+20/01/2023, 13:06:40 - DEBUG - broadcast to all but user:  | KAcsu7B7J2AQO2HdAAAf
+20/01/2023, 13:06:45 - DEBUG - broadcast to all but user:  | KAcsu7B7J2AQO2HdAAAf
+20/01/2023, 13:07:01 - DEBUG - auth.service - login with username: yoni
